@@ -12,20 +12,20 @@
         "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/nodejs.png"
       },
       {
-        "name": "Java",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/java.png"
+        "name": "Javascript",
+        "logo": "https://raw.githubusercontent.com/Alexandre-Gervasio/js-developer-portfolio/refs/heads/main/data/imgs/js.png"
       },
       {
-        "name": "Angular",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/angular.png"
+        "name": "CSS",
+        "logo": "https://raw.githubusercontent.com/Alexandre-Gervasio/js-developer-portfolio/refs/heads/main/data/imgs/css.png"
+      },
+      {
+        "name": "HTML",
+        "logo": "https://raw.githubusercontent.com/Alexandre-Gervasio/js-developer-portfolio/refs/heads/main/data/imgs/html.png"
       },
       {
         "name": "React",
         "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/react.png"
-      },
-      {
-        "name": "Mongodb",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/mongodb.png"
       },
       {
         "name": "Postgresql",
