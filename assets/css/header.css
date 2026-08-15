@@ -3,9 +3,23 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
+    position: relative;
 }
 
-.header .profile-photo {
+.header::after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    width: 2rem;
+    height: 2rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url('/assets/img/icons/header.svg');
+}
+
+.header .photo {
     width: 200px;
     height: 200px;
     border-radius: 50%;

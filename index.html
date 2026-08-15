@@ -19,24 +19,98 @@
 
     <link rel="stylesheet" href="/assets/css/header.css">
     <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/acordeon.css">
+    <link rel="stylesheet" href="/assets/css/languages.css">
+    <link rel="stylesheet" href="/assets/css/portifolio.css">
+    <link rel="stylesheet" href="/assets/css/experience.css">
+    <link rel="stylesheet" href="/assets/css/skills.css">
 
 </head>
 
 <body>
-    <div class="main">
+    <main class="main">
         <header class="header">
-            <img src="/assets/img/my-photo.jpg" alt="Foto de Alexandre Gervasio" class="profile-photo">
+            <img src="/assets/img/my-photo.jpg" alt="Foto de Perfil" class="photo" id="profile-photo">
 
-            <h1 class="title">Olá, <br>eu sou Alexandre Gervasio</h1>
+            <h1 class="title">Olá, <br>eu sou <span id="profile.name">Carregando...</span></h1>
 
             <div class="information">
-                <p class="job">Backend Developer Junior</p>
-                <p class="location">Campina Grande, PB</p>
-                <p class="phone">(83) 9 9999-9999</p>
-                <p class="email">alexandre.gervasio@example.com</p>
+                <p class="job" id="profile.job">Carregando...</p>
+                <p class="location" id="profile.location">Carregando...</p>
+                <p class="phone">
+                    <a href="https://wa.me/5583986446366" target="_blank" id="profile.phone">(83) 9 8644-6366</a>
+                </p>
+                <p class="email">
+                    <a href="mailto:alexandrework010@gmail.com" id="profile.email">Carregando...</a>
+                </p>
             </div>
         </header>
-    </div>
+
+        <section class="acordeon">
+            <button class="trigger" type="button">
+                <h2>Skills</h2>
+            </button>
+
+            <div class="content">
+                <div class="skills">
+                    <section class="tools">
+                        <h3>Ferramentas:</h3>
+                        <ul id="profile.skills.hardSkills">
+                        </ul>
+                    </section>
+
+                    <section class="personal">
+                        <h3>Habilidades Pessoais:</h3>
+                        <ul id="profile.skills.softSkills">
+                            <li>Carregando...</li>
+                        </ul>
+                    </section>
+                </div>
+
+        </section>
+
+        <section class="acordeon">
+            <button class="trigger" type="button">
+                <h2>Idiomas</h2>
+            </button>
+
+            <div class="content">
+                <ul class="languages" id="profile.languages">
+                    <li>Carregando...</li>
+                </ul>
+            </div>
+
+        </section>
+
+        <section class="acordeon">
+            <button class="trigger" type="button">
+                <h2>Portifólio</h2>
+            </button>
+
+            <div class="content">
+                <ul class="portifolio" id="profile.portifolio">
+
+                </ul>
+            </div>
+        </section>
+
+        <section class="acordeon">
+            <button class="trigger" type="button">
+                <h2>Experiência Profissional</h2>
+            </button>
+
+            <div class="content">
+                <ul class="experience" id="profile.professionalExperience">
+
+                </ul>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="/assets/js/acordeon.js"></script>
+    <script src="/assets/js/api.js"></script>
+    <script src="/assets/js/main.js"></script>
 </body>
 
 </html>
